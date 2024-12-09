@@ -10,6 +10,25 @@ There are several sections detailing the parts of the build:
   - [`hardware/DiamondMount`](./hardware/DiamondMount/) - details how the diamond is mounted
 - [Build Guide](./BuildGuide.md) - a comprehensive build guide for the sensor.
 
+## Cost per Device
+
+The ballpark costs are as follows (in GBP):
+
+| Item                   | Number | Cost      |
+|:-----------------------|:------:|----------:|
+| Battery pack           | 1      | Free to £5|
+| OpAmp + electronics    | 1      | up to £5  |
+| Laser Module           | 1      | ~£5-15    |
+| ADF4350/1 MW Generator | 1      | £15-25    |
+| MW Gain (40dB)         | 1      | £5        |
+| PCB (unit from run)    | 1      | ~£5       |
+| OLED Screen            | 1      | £5        |
+| ESP32 board            | 1      | ~£10      |
+| NV Center Diamond      | 1      | ~£10      |
+| Epoxy and Cu Wire      | 1 ea.  | £10-15    |
+|                        | **TOTAL** | £110   |
+
+
 ## Licensing
 
 This project is under the Affero GPL license. This is a paritcularly restrictive license that demands any and all updates from anyone using this project. The AGPL is designed specifically to ensure that any modified source code becomes available to the community. Specifically:
