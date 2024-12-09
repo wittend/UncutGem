@@ -1,4 +1,4 @@
-# PCBs and Hardware Design
+# PCBs and Hardware Design
 
 There are two sections:
 
