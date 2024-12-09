@@ -23,3 +23,11 @@ We used a module we acquired off Amazon UK (no longer available), but in reality
 - 520nm - 532nm green light
 - a laser point of light
 - is around 10mm wide by 22mm long. 
+
+### ESP32 Dev Board
+
+We use one that is 2x rows of 15 pins with the pintout described in the schematic.
+
+### 1.3" OLED Screen
+
+These are standard OLED boards using SH110X-based screens driven by I2C (not SPI).
