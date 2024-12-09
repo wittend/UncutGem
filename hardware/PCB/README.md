@@ -2,6 +2,8 @@
 
 This folder contains the entire KiCad project for the diamond sensor, with full electronics. The Git History contains previous versions, including the version first presented at BSides London in Dec 2024!
 
+The [schematic may be found here](./DiamondGeezer.pdf).
+
 ## Additional COTS Parts
 
 There are several additional parts that are needed for this pariticular version, detailed below.
