@@ -20,13 +20,13 @@ The ballpark costs are as follows (in GBP):
 | OpAmp + electronics    | 1      | up to £5  |
 | Laser Module           | 1      | ~£5-15    |
 | ADF4350/1 MW Generator | 1      | £15-25    |
-| MW Gain (40dB)         | 1      | £5        |
+| MW Gain (40dB) + BNC   | 1      | £10       |
 | PCB (unit from run)    | 1      | ~£5       |
 | OLED Screen            | 1      | £5        |
 | ESP32 board            | 1      | ~£10      |
 | NV Center Diamond      | 1      | ~£10      |
 | Epoxy and Cu Wire      | 1 ea.  | £10-15    |
-|                        | **TOTAL** | £110   |
+|                        | **TOTAL** | ~£115  |
 
 
 ## Licensing
