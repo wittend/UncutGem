@@ -1,4 +1,4 @@
-# UncutGems
+# Uncut Gems
 A prototype Full Stack fully Open Source NV Center Diamond Magnetometer
 
 There are several sections detailing the parts of the build: 
