@@ -10,3 +10,12 @@ There are several sections detailing the parts of the build:
   - [`hardware/DiamondMount`](./hardware/DiamondMount/) - details how the diamond is mounted
 - [Build Guide](./BuildGuide.md) - a comprehensive build guide for the sensor.
 
+## Licensing
+
+This project is under the Affero GPL license. This is a paritcularly restrictive license that demands any and all updates from anyone using this project. The AGPL is designed specifically to ensure that any modified source code becomes available to the community. Specifically:
+
+> Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network (if your version supports such interaction) an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software. [...]
+
+We have chosen this license as it promotes fairness to the community that might be benefiting from this project.
+
+However, if you would like to re-license this for commercial use under a more forgiving license, such at the MIT License, then we are open to negotiations from companies who would like to use this work in return for substantial support of Quantum Village Inc. You can reach us at `hello [a t] quantumvillage [d0t] org`.
