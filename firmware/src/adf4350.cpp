@@ -77,6 +77,8 @@ int ADF4350::getFreq(){
 }
 
 void ADF4350::setFreq(int freq){
+    /*
+    THIS IS BS (PROFESSIONAL ASSESSMENT) -MC
     _freq = freq;
     int multiplier;
 
@@ -103,7 +105,7 @@ void ADF4350::setFreq(int freq){
         _int = _freq/_refClk;
     } else{
         _int = _freq*multiplier/_refClk;
-    }
+    } */
     //ADF4350::update();
 }
 
