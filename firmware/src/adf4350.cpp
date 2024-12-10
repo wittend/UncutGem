@@ -240,7 +240,7 @@ void ADF4350::send_2870(){
 }
 
 
-// Sooty's mad... so he's gonna send Soo and...
+// Sooty's mad... so he's gonna send Soo and he's gonna...
 void ADF4350::send_sweep(){
   for(int i = 0; i < 128; i++){
     for(int j = 0; j < 6; j++){
@@ -273,8 +273,8 @@ int ADF4350::send_sweep_step(int i){
       ADF4350::writeRegister(tmp);
     }
     // delayMicroseconds(5);
-    delayMicroseconds(500);
-    // delay(1);
+    // delayMicroseconds(500);
+    delay(1);
     int ADC_out = ADF4350::get_avg_ADC();
     // Serial.println(ADC_out);
     return ADC_out;
@@ -282,10 +282,13 @@ int ADF4350::send_sweep_step(int i){
 
 int ADF4350::get_avg_ADC(){
     int output = 0;
-    for(int i = 0; i < 6; i++){
-      output += analogReadMilliVolts(_ADCpin);
+    int count = 6;
+    for(int i = 0; i < count; i++){
+      int val = analogReadMilliVolts(_ADCpin);
+      while(val > MAXVAL){val = analogReadMilliVolts(_ADCpin);}
+      output += val;
     }
-    return output / 6;
+    return output / count;
 }
 
 

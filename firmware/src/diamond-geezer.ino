@@ -17,11 +17,12 @@ Adafruit_SH1106G display = Adafruit_SH1106G(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, 
 ADF4350 PLL(COM_PIN, ADC_PIN); // declares object PLL of type ADF4350. Will initialize it below.
 
 int MINVAL_ADC = 1750;
-int MAXVAL_ADC = 1500;
+int MAXVAL_ADC = 1500; // moved to adf4350.h
 int VAL_DIV = 11;
 int CALIBRATION_COUNT = 10;
 int CUM_PLOT_SCALE = 1375; // cumulative plot scaling base
 int CUM_PLOT_DIV = 3;//1.5; // cumulative plot divider 
+int PT_OFFSET = 7;
 
 int prev_val = 0;
 int cum_ctr = 0; // cumulative counter
@@ -55,7 +56,7 @@ void loop() {
     int ADC_out = PLL.send_sweep_step(i);
     // display.drawLine(display.width() - 1, 0, i, display.height() - 1, SH110X_WHITE);
     display.drawLine(i, display.height(), i, 25, SH110X_BLACK); // clear the existing line
-    int display_val = (((ADC_out - MINVAL_ADC )/ VAL_DIV) + prev_val)/2;
+    int display_val = (((ADC_out - MINVAL_ADC )/ VAL_DIV) + prev_val)/2; // interpolate the previous value
     display.drawLine(i, display.height(), i, display.height() - min(display_val, 40), SH110X_WHITE);
     display.display();
     //Serial.println(display_val);
@@ -70,9 +71,10 @@ void loop() {
   // display.display();
 
   // do a small 25px cumulative average plot
-  if (cum_ctr > 127){ cum_ctr = 0; display.fillRect(0, 0, 128, 30, SH110X_BLACK);}
+  if (cum_ctr > 127){ cum_ctr = 0; display.fillRect(0, 0, 128, 64, SH110X_BLACK);}
   float scaled_val = ((cum_avg - (float)CUM_PLOT_SCALE)/(float)CUM_PLOT_DIV);
   int dot_val = scaled_val < 0 ? floor(scaled_val)/2 : scaled_val; // if dot_val is negative, scale it to 'small near zero'
+  dot_val = (dot_val - PT_OFFSET) * 1.5;
   display.drawPixel(cum_ctr, dot_val, SH110X_WHITE);
   display.display();
   Serial.println(scaled_val);
@@ -107,7 +109,7 @@ void calibrate(){
       }
       if (ADC_out < MINVAL_ADC && ADC_out > 1100){ 
         // reduce it, but not below 1.1V...
-        MINVAL_ADC = ADC_out-10;
+        MINVAL_ADC = ADC_out-25;
       }
     }
     ctr++;

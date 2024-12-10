@@ -30,6 +30,8 @@
 #define SPI_SCLK SCK //18
 #define SPI_SS   SS //5
 
+#define MAXVAL 1500
+
 #if !defined(CONFIG_IDF_TARGET_ESP32)
 #define VSPI FSPI
 #endif
