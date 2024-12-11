@@ -8,7 +8,7 @@ There are several sections detailing the parts of the build:
 - [`hardware`](./hardware/) - has two main sections
   - [`hardware/pcb`](./hardware/PCB/) - details the PCB schematics and parts
   - [`hardware/DiamondMount`](./hardware/DiamondMount/) - details how the diamond is mounted
-- [Build Guide](./BuildGuide.md) - a comprehensive build guide for the sensor.
+- [Build Guide](./BuildGuide/BuildGuide.md) - a comprehensive build guide for the sensor.
 
 ## Cost per Device
 
