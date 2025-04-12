@@ -4,6 +4,31 @@ This folder contains the entire KiCad project for the diamond sensor, with full 
 
 The [schematic may be found here](./DiamondGeezer.pdf).
 
+Here are two renders of the first version of the board:
+
+<img src='images/DiamondGeezer-1.png' style="width:50%"/><img src='images/DiamondGeezer-2.png' style="width:50%"/>
+
+### Bill of Materials
+
+Here is a bill of materials for the various parts and connections on the board:
+
+| **Reference**         | **Part Value**                            | **Qty** |
+| --------------------- | ------------------------------------ | ------- |
+| **5V_SUPP1**          | Conn_02x03                           | 1       |
+| **C1**                | 104                                  | 1       |
+| **C2**                | 33                                   | 1       |
+| **C3,C4,C5,C6,C7,C8** | 100nF                                | 6       |
+| **C9,C10**            | 10uF                                 | 2       |
+| **J2**                | OLED Screen Interface                | 1       |
+| **OScope1**           | OScope                               | 1       |
+| **PHOTODIODE1**       | Conn_01x03_Socket                    | 1       |
+| **R1,R2,R3**          | 1k                                   | 3       |
+| **R4**                | 1M                                   | 1       |
+| **R5**                | 47k                                  | 1       |
+| **SIGGEN1**           |Conn_02x05                            | 1       |
+| **U1**                | DOIT-ESP32-DEVKIT-V1                 | 1       |
+| **U2**                | TL082                                | 1       |
+
 ## Additional COTS Parts
 
 There are several additional parts that are needed for this pariticular version, detailed below.
