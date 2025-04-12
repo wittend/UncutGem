@@ -8,7 +8,7 @@ Here are two renders of the first version of the board:
 
 <img src='images/DiamondGeezer-1.png' style="width:50%"/><img src='images/DiamondGeezer-2.png' style="width:50%"/>
 
-### Bill of Materials
+## Bill of Materials
 
 Here is a bill of materials for the various parts and connections on the board:
 
