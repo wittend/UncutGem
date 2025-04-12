@@ -4,6 +4,19 @@ An ESP32 development board is used as both controller for the ADF4351 signal gen
 
 The firmware is included in the [`src`](./src/) directory. 
 
+## The ADF4351
+
+The ADF4351 is the key component in this design - here are some key resources for debugging and developing out more functionality using it:
+
+1. The ADF4351 Cheatsheet - Analogue Devices - https://www.sv1afn.com/images/usrImage/1-12-2019-21-38-5de432db94746.pdf 
+1. The ADF4351 Datasheet - https://www.analog.com/media/en/technical-documentation/data-sheets/adf4351.pdf
+
+Copies are also provided in the [`/resources`](/resources) folder. 
+
+The ADF4351 is a PLL frequency genreator chip designed for generating 35MHz to 4.4GHz signals. Primarily designed for use in wireless transmission hardware and protocols, we are using here as our main software controllable source of microwaves. 
+
+The ADF4351 accepts signals over an SPI-based protocol, for which we use the built-in Arduino IDE functions with some additional code to take care of the Latch Enable (LE) pin setting. 
+
 ## Some Considerations in Firmware
 
 There were many considerations made to improve the accessibility and reliability of the sensor's operation.
