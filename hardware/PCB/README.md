@@ -29,6 +29,11 @@ Here is a bill of materials for the various parts and connections on the board:
 | **U1**                | DOIT-ESP32-DEVKIT-V1                 | 1       |
 | **U2**                | TL082                                | 1       |
 
+**NB** - Here are some notes about this design:
+
+1. Capacitors C5-10 are optional, mostly included to deal with unsteady USB power supplies.
+1. Capacitors C1 and C2 turn the transimpedence amplifier into integrator mode. If they are omitted, it will operate as a regular inverting OpAmp. 
+
 ## Additional COTS Parts
 
 There are several additional parts that are needed for this pariticular version, detailed below.
