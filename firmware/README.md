@@ -17,6 +17,10 @@ The ADF4351 is a PLL frequency genreator chip designed for generating 35MHz to 4
 
 The ADF4351 accepts signals over an SPI-based protocol, for which we use the built-in Arduino IDE functions with some additional code to take care of the Latch Enable (LE) pin setting. 
 
+## Overview of Key Functions
+
+TODO
+
 ## Some Considerations in Firmware
 
 There were many considerations made to improve the accessibility and reliability of the sensor's operation.
