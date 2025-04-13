@@ -30,6 +30,14 @@ The ballpark costs are as follows (in GBP):
 |                        | **TOTAL** | ~£115  |
 
 
+## Acknowledgements 
+
+We would like to thank the following folk for their help during this project:
+
+* **Mark Carney** - Prototyping Project Lead, initial designs for hardware/firmware.
+* **Victoria Kumaran** - Prototyping, design, and project contextualisation.
+* **Elle Dowling** - Orthographic Services.
+
 ## Licensing
 
 This project is under the Affero GPL license. This is a paritcularly restrictive license that demands any and all updates from anyone using this project. The AGPL is designed specifically to ensure that any modified material becomes available to the community. Specifically:
