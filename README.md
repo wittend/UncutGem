@@ -38,6 +38,7 @@ We would like to thank the following folk for their help during this project:
 * **Victoria Kumaran** - Prototyping, design, and project contextualisation.
 * **Dr. Matthew Markham** - Key contact at Element6, tech support and providing quantum material.
 * **Prof. Ben Varcoe** - testing support and physics expertise/advisory.
+* **Dr. Brian McDermott** - Initial idea, and expertise support from Quantum Engineering @ RPI.
 * **Elle Dowling** - Orthographic Services.
 
 ## Licensing
