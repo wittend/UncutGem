@@ -11,6 +11,14 @@ There are several sections detailing the parts of the build:
   - [`hardware/DiamondMount`](./hardware/DiamondMount/) - details how the diamond is mounted
 - [Build Guide](./BuildGuide/BuildGuide.md) - a comprehensive build guide for the sensor.
 
+## Project Mission
+
+We are creating the world's first fully open-source quantum sensing platform designed from the start to be accessible, future-proof, and mostimportantly; hackable! 
+
+We are designing, building, provisioning, and aiming for distribution of a fully open hardware platform, complete with fully open firmware, that gives a firm basis for anyone to start learning about quantum sensing through nitrogen vacancy center diamond magnetometry. 
+
+By incorporating key design decisions, we are buildling the basis for what we think will be quantum technology's 'Apple II moment'; the opportunity for anyone who is curious to gain access to a quantum device that they can operate safely at home, with the full capability to customize, improve, develop with, and share knowledge about this incredible technology. 
+
 ## Cost per Device
 
 The ballpark costs are as follows (in GBP):
