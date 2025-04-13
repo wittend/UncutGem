@@ -49,6 +49,16 @@ We would like to thank the following folk for their help during this project:
 * **Dr. Brian McDermott** - Initial idea, and expertise support from Quantum Engineering @ RPI.
 * **Elle Dowling** - Orthographic Services.
 
+## Resources
+
+Here are some key resources for this project:
+
+* [ADF4351 Datasheet](resources/adf4351.pdf)
+* [ADF435x Cheatsheet](resources/ADF435x-cheatsheet.pdf)
+* Stegemann et al. - Modular low-cost 3D printed setup for experiments with NV centers in diamond - [Stegemann_2023_Eur._J._Phys._44_035402.pdf](./resources/Stegemann_2023_Eur._J._Phys._44_035402.pdf)
+* Acosta and Hemmer - Nitrogen-vacancy centers: Physics and applications - [mrs.2013.18.pdf](./resources/mrs.2013.18.pdf)
+* Frellsen and Ahmadi - Sensing magnetic fields with diamonds and green laser light - [Sensing%20magnetic%20fields%20with%20diamonds%20and%20green%20laser%20light%20–%20Quantum.pdf)](./resources/Sensing%20magnetic%20fields%20with%20diamonds%20and%20green%20laser%20light%20–%20Quantum.pdf) 
+
 ## Licensing
 
 This project is under the Affero GPL license. This is a paritcularly restrictive license that demands any and all updates from anyone using this project. The AGPL is designed specifically to ensure that any modified material becomes available to the community. Specifically:
