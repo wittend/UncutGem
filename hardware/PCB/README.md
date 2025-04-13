@@ -61,3 +61,21 @@ We use one that is 2x rows of 15 pins with the pintout described in the schemati
 ### 1.3" OLED Screen
 
 These are standard OLED boards using SH110X-based screens driven by I2C (not SPI).
+
+## Cost per Device
+
+The ballpark costs are as follows (in GBP):
+
+| Item                   | Number | Cost      |
+|:-----------------------|:------:|----------:|
+| Battery pack           | 1      | Free to £5|
+| OpAmp + electronics    | 1      | up to £5  |
+| Laser Module           | 1      | ~£5-15    |
+| ADF4350/1 MW Generator | 1      | £15-25    |
+| MW Gain (40dB) + BNC   | 1      | £10       |
+| PCB (unit from run)    | 1      | ~£5       |
+| OLED Screen            | 1      | £5        |
+| ESP32 board            | 1      | ~£10      |
+| NV Center Diamond      | 1      | ~£10      |
+| Epoxy and Cu Wire      | 1 ea.  | £10-15    |
+|                        | **TOTAL** | ~£115  |
