@@ -36,6 +36,8 @@ We would like to thank the following folk for their help during this project:
 
 * **Mark Carney** - Prototyping Project Lead, initial designs for hardware/firmware.
 * **Victoria Kumaran** - Prototyping, design, and project contextualisation.
+* **Dr. Matthew Markham** - Key contact at Element6, tech support and providing quantum material.
+* **Prof. Ben Varcoe** - testing support and physics expertise/advisory.
 * **Elle Dowling** - Orthographic Services.
 
 ## Licensing
