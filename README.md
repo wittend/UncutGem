@@ -37,7 +37,6 @@ The ballpark costs are as follows (in GBP):
 | Epoxy and Cu Wire      | 1 ea.  | £10-15    |
 |                        | **TOTAL** | ~£115  |
 
-
 ## Acknowledgements 
 
 We would like to thank the following folk for their help during this project:
