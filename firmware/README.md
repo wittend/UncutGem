@@ -13,13 +13,44 @@ The ADF4351 is the key component in this design - here are some key resources fo
 
 Copies are also provided in the [`/resources`](/resources) folder. 
 
-The ADF4351 is a PLL frequency genreator chip designed for generating 35MHz to 4.4GHz signals. Primarily designed for use in wireless transmission hardware and protocols, we are using here as our main software controllable source of microwaves. 
+The ADF4351 is a PLL frequency generator chip designed for generating 35MHz to 4.4GHz signals. Primarily designed for use in wireless transmission hardware and protocols, we are using here as our main software controllable source of microwaves. 
 
 The ADF4351 accepts signals over an SPI-based protocol, for which we use the built-in Arduino IDE functions with some additional code to take care of the Latch Enable (LE) pin setting. 
 
 ## Overview of Key Functions
 
-TODO
+The firmware has a number of key files:
+
+* `uncut-gem.ino` is the main sourcefile for Arduino IDE
+    * This contains the `setup()` and `loop()` functions defaults.
+    * This file sets up all of the devices, then enters a function loop.
+* `sweep_array.h` contains pre-calculated frequency values to send to the ADF4351. 
+* `adf4350.cpp` and `adf4350.h` are adapted versions of code from Analog Devices. They do not run as they usually would as that was far too noisy.
+
+The control flow looks something like this at a high level, beginning from `setup()`:
+
+<pre class='mermaid'>
+flowchart TD
+    n2["Set next Frequency"] --> n3["Take average of 10 meausrements"]
+    n3 --> n4["Draw average to screen"]
+    n4 --> n5["Loop Done?"]
+    n5 -- Yes --> n6["Calculate &amp; draw cumulative average to screen"]
+    n1(["setup()"]) --> n7["Enter Microwave Sweep Loop"]
+    n7 -- Loop! --> n2
+    n5 -- No --> n2
+    n6 --> n7
+
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
+    n4@{ shape: rounded}
+    n5@{ shape: diam}
+    n6@{ shape: rounded}
+    n7@{ shape: rounded}
+    style n1 stroke-width:4px,stroke-dasharray: 0
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+</script>
 
 ## Some Considerations in Firmware
 
