@@ -8,8 +8,8 @@ The firmware is included in the [`src`](./src/) directory.
 
 The ADF4351 is the key component in this design - here are some key resources for debugging and developing out more functionality using it:
 
-1. The ADF4351 Cheatsheet - Analogue Devices - https://www.sv1afn.com/images/usrImage/1-12-2019-21-38-5de432db94746.pdf 
-1. The ADF4351 Datasheet - https://www.analog.com/media/en/technical-documentation/data-sheets/adf4351.pdf
+1. The ADF4351 Cheatsheet - Analogue Devices - [https://www.sv1afn.com/images/usrImage/1-12-2019-21-38-5de432db94746.pdf](https://www.sv1afn.com/images/usrImage/1-12-2019-21-38-5de432db94746.pdf) 
+1. The ADF4351 Datasheet - [https://www.analog.com/media/en/technical-documentation/data-sheets/adf4351.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/adf4351.pdf)
 
 Copies are also provided in the [`/resources`](/resources) folder. 
 

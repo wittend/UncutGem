@@ -1,4 +1,4 @@
-# UNCUT GEMS - Build Guide
+# UNCUT GEM - Build Guide
 
 This is as comprehensive build guide as we can make for the UNCUT GEMS open source NV center diamond sensor!
 
