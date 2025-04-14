@@ -24,7 +24,7 @@ The diamond is ~750um in size - essentially a large grain of salt/small grain of
 
 The epoxy that we have eventually worked out is best is UV cured clear epoxy. Clear epoxy has reasonably good optical properties, and UV cured epoxy (e.g. [of this kind on Amazon.co.uk](https://www.amazon.co.uk/Ultraviolet-Jewellry-Necklaces-Bracelets-Accessories/dp/B0BWT7JNYT/)) is widely available. We make use of UV cured epoxy for fast iteration and prototyping. Whilst slower setting epoxies may have slightly nicer chemical properties for other applications, the use of very stable materials (diamond, copper, plastic film) means that faster setting epoxy is perfectly fine to use.
 
-The epoxy is best moulded in silicone moulds - we used some of the smaller slightly thicker shaped moulds from a 'epoxy jewellery mould kit' we found on Amazon (sadly no longer available). There are also useful mould sizes advertised for use in making sweets/confectionary or for moulding small chocolates. All of the ones that are useful are usually in the size range of 10-20mm. 
+The epoxy is best moulded in silicone moulds - we used some of the smaller slightly thicker shaped moulds from a 'epoxy jewellery mould kit' we found on Amazon (sadly no longer available). There are also useful mould sizes advertised for use in making sweets/confectionery or for moulding small chocolates. All of the ones that are useful are usually in the size range of 10-20mm. 
 
 ### Aerial wire for the microwave signal
 
@@ -52,7 +52,7 @@ First lay down a layer of epoxy and proceed to harden it. Once done, carefully p
 
 ![images/layer2.png](images/layer2.png)
 
-Once the diamond and antenna are in place, proceed to pour another layer of epoxy over the top. We use toothpicks to maneuvre things into just the right positions before hardening again. 
+Once the diamond and antenna are in place, proceed to pour another layer of epoxy over the top. We use toothpicks to maneuver things into just the right positions before hardening again. 
 
 ### Layer 3
 

@@ -20,14 +20,14 @@ We recommend using an isolated or protected USB supply for testing and operation
 
 Assuming you have a PCB, we recommend the following steps:
 
-1. We first recommend solding the components for the transimpedence amplifier:
-    * First, solder the TL082 dual opamp chip (solder directly or use a DIP chip socket)
+1. We first recommend soldering the components for the transimpedence amplifier:
+    * First, solder the TL082 dual opamp chip - use a DIP chip socket, or solder directly if you know what you are doing.
     * Next, solder the resistors and capacitors, only adding C1 and C2 if you want to use the opamp as an integrator.
     * Trim the leads on the back.
 1. Solder the sockets for the ESP32 dev board, the OLED screen, and the 5V/GND supply 3x2 pin socket block.
 1. Next, solder the 5x2 pin socket for the ADF4351 board
     * Note - this socket is soldered **on the back** of the board. So you solder on what is the front of the board. 
-1. Before placing the boards, bolt in place some appropritely long brass PCB mounts. 
+1. Before placing the boards, bolt in place some appropriately long brass PCB mounts. 
 1. First, plug in the ESP32 and power up: 
     * Check that a steady 5V is coming from the 5V supply socket
     * 3.3V from the socket for the ADF4351 board. 
@@ -48,8 +48,8 @@ Assuming you have a PCB, we recommend the following steps:
 1. Connect the microwave antenna to the RF amplifier output. 
     * If you have crimped an SMA connector, then you can just screw this onto the mounted connector on the RF amplifier board.
     * If you have not, then you may carefully solder the antenna wire to the output pin of the same connector.
-    * Carefully inspect the soldering joint to ensure no short circuits have been intruduced. 
-1. At this point **TRIPLE CHECK FOR ELECTRICAL SHORTS** before powering on! At this point, an uninteded short can damage all three of the daughter boards. 
+    * Carefully inspect the soldering joint to ensure no short circuits have been introduced. 
+1. At this point **TRIPLE CHECK FOR ELECTRICAL SHORTS** before powering on! At this point, an unintended short can damage all three of the daughter boards. 
 1. Plug in the OLED screen board and power up - if the text `Calibrating...` is shown, then the device is working!  
 
 If the board powers on find after all this, and all checks are passed, then you should proceed to aligning!
@@ -59,7 +59,7 @@ If the board powers on find after all this, and all checks are passed, then you 
 
 The simplest way is to mount the lasers on some enameled copper wire, and use the structural properties therein to hold the laser and epoxy prism in place. 
 
-**NB** - you **MUST** use enameeled copper wire, else you will create shorts that will definitely damage your device and any device it is connected to! 
+**NB** - you **MUST** use enameled copper wire, else you will create shorts that will definitely damage your device and any device it is connected to! 
 
 When aligning, use Red laser goggles or a sample of red filter gel to align the laser such that the diamond is shining very brightly with red light!
 
@@ -72,7 +72,7 @@ The finished assembled board should look like this:
 
 ## Testing and Operation
 
-To test the magnetometery we recommmend the following initial 'signs of life' test:
+To test the magnetometery we recommend the following initial 'signs of life' test:
 
 1. Turn off as many environmental/ambient lights as possible. 
 1. Power the device and check that the lower half of the screen is showing a pattern.

@@ -56,11 +56,13 @@ We used a module we acquired off Amazon UK (no longer available), but in reality
 
 ### ESP32 Dev Board
 
-We use one that is 2x rows of 15 pins with the pintout described in the schematic.
+We use one that is 2x rows of 19 pins with the pin-out described in the schematic. You can use 15-pin boards, but you'll have to add wires for power and ground manually. 
 
 ### 1.3" OLED Screen
 
-These are standard OLED boards using SH110X-based screens driven by I2C (not SPI).
+These are standard OLED boards using SH110X-based screens driven by I2C (not SPI). **BEWARE** - many of the screens swap VDD and GND. This design uses a board with pins in order (as you look at the screen): VDD/GND/SCK/SDA
+
+If your screen has GND/VDD/SCK/SDA, then you need to do some work on the PCB to fix it, or acquire a different screen. 
 
 ## Cost per Device
 
