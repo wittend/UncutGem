@@ -31,14 +31,16 @@ The control flow looks something like this at a high level, beginning from `setu
 
 <pre class='mermaid'>
 flowchart TD
+    n1(["setup()"]) --> n8["Calibration Routine"]
+    n8 --> n7
     n2["Set next Frequency"] --> n3["Take average of 10 meausrements"]
     n3 --> n4["Draw average to screen"]
     n4 --> n5["Loop Done?"]
     n5 -- Yes --> n6["Calculate &amp; draw cumulative average to screen"]
-    n1(["setup()"]) --> n7["Enter Microwave Sweep Loop"]
-    n7 -- Loop! --> n2
+    n7["Enter Microwave Sweep Loop"] -- Loop! --> n2
     n5 -- No --> n2
     n6 --> n7
+    
 
     n2@{ shape: rounded}
     n3@{ shape: rounded}
@@ -46,6 +48,7 @@ flowchart TD
     n5@{ shape: diam}
     n6@{ shape: rounded}
     n7@{ shape: rounded}
+    n8@{ shape: rounded}
     style n1 stroke-width:4px,stroke-dasharray: 0
 </pre>
 <script type="module">
