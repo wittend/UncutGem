@@ -37,9 +37,9 @@ flowchart TD
     n3 --> n4["Draw average to screen"]
     n4 --> n5["Loop Done?"]
     n5 -- Yes --> n6["Calculate &amp; draw cumulative average to screen"]
-    n7["Enter Microwave Sweep Loop"] -- Loop! --> n2
+    n7["Enter Microwave Sweep Loop"] --> n2
     n5 -- No --> n2
-    n6 --> n7
+    n6 -- Loop! --> n7
     
 
     n2@{ shape: rounded}
