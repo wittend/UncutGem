@@ -35,7 +35,7 @@ The design is in two iterations, but generally our features are:
 * Using easy-to-acquire, all-generic parts for our PCBs.
 * Low-noise photodiode signal amplifier design that is robust and inexpensive.
 * Using off the shelf, low cost, widely available daughter boards.
-* Easy construction from carefully considered design.
+* Easy and reasonably compact construction from carefully considered design.
 * Optimized control stack and firmware, written using Arduino IDE for portability and future-proofing.
 * Full build guide and growing documentation.
 * Growing community around these devices. 
