@@ -15,6 +15,8 @@ There are several sections detailing the parts of the build:
   - [`hardware/DiamondMount`](./hardware/DiamondMount/) - details how the diamond is mounted
 - [Build Guide](./BuildGuide/BuildGuide.md) - a comprehensive build guide for the sensor.
 
+<img src="images/device-front.jpeg" style="width: 50%"/><img src="images/device-back.jpeg" style="width: 50%"/>
+
 ## Project Mission
 
 We are creating the world's first fully open-source quantum sensing platform designed from the start to be accessible, future-proof, and most importantly; hackable! 
