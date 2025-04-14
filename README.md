@@ -19,6 +19,27 @@ We are designing, building, provisioning, and aiming for distribution of a fully
 
 By incorporating key design decisions, we are building the basis for what we think will be quantum technology's 'Apple II moment'; the opportunity for anyone who is curious to gain access to a quantum device that they can operate safely at home, with the full capability to customize, improve, develop with, and share knowledge about this incredible technology. 
 
+## Design Philosophy
+
+We have used the following four principles to guide the initial development of this project:
+
+* Aim to create a platform for exploration.
+* Use Consumer Off-the-shelf (COTS) components as much as possible.
+* Create a hardware stack that allows as many aspects of the sensing process to be ‘software problems’ as possible.
+* Where assembly is required, simplify!
+
+## Features
+
+The design is in two iterations, but generally our features are:
+
+* Using easy-to-acquire, all-generic parts for our PCBs.
+* Low-noise photodiode signal amplifier design that is robust and inexpensive.
+* Using off the shelf, low cost, widely available daughter boards.
+* Easy construction from carefully considered design.
+* Optimized control stack and firmware, written using Arduino IDE for portability and future-proofing.
+* Full build guide and growing documentation.
+* Growing community around these devices. 
+
 ## Contents Overview
 
 We aim to cover all of the essential information for someone interested to learn about quantum sensing with Nitrogen Vacancy Centre Diamonds, and then have the information and parts-list to go ahead and construct such a device. To that end, we cover:
