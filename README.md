@@ -4,7 +4,7 @@ A prototype Full Stack fully Open Source NV Center Diamond Magnetometer
 
 There are several sections detailing the parts of the build: 
 
-- [`/science`](./science) - a folder with an explaination and references for the science behind the sensor. 
+- [`/science`](./science) - a folder with an explanation and references for the science behind the sensor. 
 - [`/firmware`](./firmware/) - details the firmware used in the sensor.
 - [`hardware`](./hardware/) - has two main sections
   - [`hardware/pcb`](./hardware/PCB/) - details the PCB schematics and parts
@@ -13,11 +13,33 @@ There are several sections detailing the parts of the build:
 
 ## Project Mission
 
-We are creating the world's first fully open-source quantum sensing platform designed from the start to be accessible, future-proof, and mostimportantly; hackable! 
+We are creating the world's first fully open-source quantum sensing platform designed from the start to be accessible, future-proof, and most importantly; hackable! 
 
 We are designing, building, provisioning, and aiming for distribution of a fully open hardware platform, complete with fully open firmware, that gives a firm basis for anyone to start learning about quantum sensing through nitrogen vacancy center diamond magnetometry. 
 
-By incorporating key design decisions, we are buildling the basis for what we think will be quantum technology's 'Apple II moment'; the opportunity for anyone who is curious to gain access to a quantum device that they can operate safely at home, with the full capability to customize, improve, develop with, and share knowledge about this incredible technology. 
+By incorporating key design decisions, we are building the basis for what we think will be quantum technology's 'Apple II moment'; the opportunity for anyone who is curious to gain access to a quantum device that they can operate safely at home, with the full capability to customize, improve, develop with, and share knowledge about this incredible technology. 
+
+## Contents Overview
+
+We aim to cover all of the essential information for someone interested to learn about quantum sensing with Nitrogen Vacancy Centre Diamonds, and then have the information and parts-list to go ahead and construct such a device. To that end, we cover:
+
+* The basic science behind this kind of solid state quantum sensing
+* A run down of our design choices and devices/parts used to make the sensor
+* A build guide for putting together a working sensor
+
+Everything is open source, including the firmware, and we welcome contributions to improve this design!
+
+## Why Open Source?
+
+> “Information flow is what the Internet is about. Information sharing is power. If you don't share your ideas, smart people can't do anything about them, and you'll remain anonymous and powerless.”
+> -- Vint Cerf
+
+We think that more projects in quantum technology should be open source, so that quantum tech can benefit from the rich ecosystem of 'ready-made' tooling that our existing software and classical technology stacks have enjoyed! We firmly believe that by creating an open-source baseline for quantum and quantum-related technologies we immediately gain a number of things:
+
+* The dissemination of knowledge around quantum technologies allows the general workforce to gain the skills needed to further develop quantum tech. 
+* By creating a testbed platform that is designed to be hackable, it is natural to extend its functionality into areas that nobody is currently considering.
+* By using COTS parts and creating and open design, we can drive down the costs associated with quantum sensing.
+* The value proposition for commercial products and services is immediate by comparison to an open-source 'free' baseline.
 
 ## Cost per Device
 
