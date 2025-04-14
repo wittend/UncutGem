@@ -2,6 +2,9 @@
 
 A prototype Full Stack fully Open Source NV Center Diamond Magnetometer
 
+V1 - this document and repository.
+V2 - **COMING SUMMER 2025!**
+
 There are several sections detailing the parts of the build: 
 
 - [`/science`](./science) - a folder with an explanation and references for the science behind the sensor. 
