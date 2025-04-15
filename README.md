@@ -91,7 +91,7 @@ The ballpark costs are as follows (in GBP):
 We would like to thank the following folk for their help during this project:
 
 * **Victoria Kumaran** - Prototyping, design and conceptualisation, and project contextualisation.
-* **Dr. Mark Carney** - Prototyping, initial designs for hardware/firmware.
+* **Mark Carney** - Prototyping, initial designs for hardware/firmware.
 * **Dr. Matthew Markham** - Key contact at Element6, tech support and providing quantum material.
 * **Prof. Ben Varcoe** - testing support and physics expertise/advisory.
 * **Dr. Brian McDermott** - Expert Advisor.
