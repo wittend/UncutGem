@@ -94,7 +94,7 @@ We would like to thank the following folk for their help during this project:
 * **Dr. Mark Carney** - Prototyping, initial designs for hardware/firmware.
 * **Dr. Matthew Markham** - Key contact at Element6, tech support and providing quantum material.
 * **Prof. Ben Varcoe** - testing support and physics expertise/advisory.
-* **Dr. Brian McDermott** - Expertise support from Quantum Engineering @ RPI.
+* **Dr. Brian McDermott** - Expert Advisor.
 * **Rick Altherr** - Design and engineering expertise and support.
 * **Elle Dowling** - Orthographic Services.
 
