@@ -25,7 +25,7 @@ The firmware has a number of key files:
     * This contains the `setup()` and `loop()` functions defaults.
     * This file sets up all of the devices, then enters a function loop.
 * `sweep_array.h` contains pre-calculated frequency values to send to the ADF4351. 
-* `adf4350.cpp` and `adf4350.h` are adapted versions of code from Analog Devices. They do not run as they usually would as that was far too noisy.
+* `ADF4351.cpp` and `ADF4351.h` are adapted versions of code from Analog Devices. They do not run as they usually would as that was far too noisy.
 
 The control flow looks something like this at a high level, beginning from `setup()`:
 
@@ -64,11 +64,11 @@ There were many considerations made to improve the accessibility and reliability
 
 The Arduino IDE is a very forgiving generic development environment for microcontrollers. It is aimed primarily at hobbyists, but has gained traction as a very easy way to 'fast prototype' microcontroller application designs. 
 
-We make use of it in this project so that as many people as possible can make use of the code on as many platforms as necessary. Rather than writing specific SPI handling code for the ADF4350, we instead can just make calls to `spi->transfer(data[i]);` from a generic SPI code API that is then ported to devices individually. Although there are many things in this code that are specifically coded for the ESP32 (such as pin definitions) these are all easily changeable to make the code work on other microcontrollers, based on availability. 
+We make use of it in this project so that as many people as possible can make use of the code on as many platforms as necessary. Rather than writing specific SPI handling code for the ADF4351, we instead can just make calls to `spi->transfer(data[i]);` from a generic SPI code API that is then ported to devices individually. Although there are many things in this code that are specifically coded for the ESP32 (such as pin definitions) these are all easily changeable to make the code work on other microcontrollers, based on availability. 
 
-### Hard Coding ADF4350 Freq Values
+### Hard Coding ADF4351 Freq Values
 
-The PLL (Phase-Locked Loop) interface on the ADF4350 derives its output frequency from several settings, each of which as to be calculated carefully before sending to the device. 
+The PLL (Phase-Locked Loop) interface on the ADF4351 derives its output frequency from several settings, each of which as to be calculated carefully before sending to the device. 
 
 However, calculating these values on the fly from a given frequency input has two major drawbacks:
 
