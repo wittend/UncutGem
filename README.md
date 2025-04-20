@@ -129,7 +129,7 @@ Adapted in part from a [safety sheet from Edmund Optics](https://www.edmundoptic
   * DO NOT target moving vehicles and airplanes. 
 4. Never randomly aim a laser out the window. 
 5. DO NOT use a laser at the place marked "No smoking" "inflammable and explosive".
-6 . Avoid pointing a laser at any reflective surfaces, e.g. mirror, glass and bright metal. 
+6. Avoid pointing a laser at any reflective surfaces, e.g. mirror, glass and bright metal. 
   * Unintentionally reflected beams can easily violate laser safety protocols. 
 7. Never import a laser which disobeys the laser safety regulation or law of the country you live in. 
 8. Wearing a set of proper laser safety goggles is a good idea. 
