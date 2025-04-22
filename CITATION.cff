@@ -6,7 +6,7 @@ authors:
   orcid: "https://orcid.org/0000-0001-9372-9033"
 - family-names: "Kumaran"
   given-names: "Victoria"
-title: "My Research Software"
+title: "Uncut Gem - A Fully Open-Source, Hackable Quantum Sensor"
 version: 0.1.0
 date-released: 2025-04-14
 url: "https://github.com/QuantumVillage/UncutGem"
