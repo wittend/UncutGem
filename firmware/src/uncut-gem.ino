@@ -57,6 +57,7 @@ void setup(){
 }
 
 void loop() {
+  Serial.println('LOOP');
   int cum_avg = 0; // cumulative average
   for(int i = 0; i < 128; i++){
     int ADC_out = PLL.send_sweep_step(i);
