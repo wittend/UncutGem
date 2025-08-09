@@ -4,7 +4,7 @@ A prototype Full Stack fully Open Source NV Center Diamond Magnetometer
 
 V1 - this document and repository.
 
-V2 - **COMING SUMMER 2025!**
+V2 - **RELEASED @ DEF CON 33 in 2025!**
 
 There are several sections detailing the parts of the build: 
 

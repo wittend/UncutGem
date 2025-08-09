@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-DOIT-DEVKIT1")(type "Legacy")(uri "${KIPRJMOD}/ESP32-board-dg/ESP32-DOIT-DEVKIT1.lib")(options "")(descr ""))
+  (lib (name "ESP32-devkit")(type "KiCad")(uri "${KIPRJMOD}/ESP32-devkit.kicad_sym")(options "")(descr ""))
+)

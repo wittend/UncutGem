@@ -1,0 +1,32 @@
+Drill report for Uncut Gem.kicad_pcb
+Created on 2025-07-22T11:18:34+0100
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L1 :  B.Cu                      back
+
+
+Drill file 'Uncut Gem-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (12 holes)
+    T2  0.300mm  0.0118"  (204 holes)
+    T3  0.460mm  0.0181"  (8 holes)
+    T4  0.500mm  0.0197"  (40 holes)
+    T5  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T6  0.700mm  0.0276"  (2 holes)
+    T7  1.000mm  0.0394"  (103 holes)
+    T8  1.200mm  0.0472"  (2 holes)
+    T9  1.500mm  0.0591"  (5 holes)
+    T10  3.000mm  0.1181"  (5 holes)
+
+    Total plated holes count 385
+
+
+Drill file 'Uncut Gem-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+
+    Total unplated holes count 2
